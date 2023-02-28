@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Noto+Sans+Limbu&family=Raleway:wght@500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.phome {
+  background-color: white;
+  color: black;
+  font-weight: 400;
+}
+.phome:hover {
+  background-color: #dcdcdc;
+}
+.ppp:hover {
+  background-color: white;
+  color: black;
+}
+nav {
+  background-color: #f44336;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 10px 0 rgb(151, 40, 40);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+
+}
+nav ul li p {
+  background-color: #f44336;
+  padding: 14px 24px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.div_nav {
+  background-color: #f44336;
+  height: 470px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.div_nav button {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 8px 16px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #aaaaaa;
+  border-color: #aaaaaa;
+  color: black;
+}
+.p1 {
+  font-size: 64px;
+  margin: 16px;
+  color: white;
+}
+.p2 {
+  margin: 24px 0;
+  font-size: 24px;
+  color: white;
+}
+
+.max_w {
+  display: flex;
+  height: 500px;
+  padding: 40px 0;
+  font-family: "Montserrat", sans-serif;
+}
+.div2_a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.div2_a,
+.div2_b {
+  margin: 0px 10px;
+}
+.d2_p1 {
+  font-size: 36px;
+}
+.d2_p2 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.d222 {
+  background-color: #f1f1f1;
+}
+.max_w {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.d2_p3 {
+  line-height: 1.5;
+  font-size: 15px;
+  color: rgb(110, 110, 110);
+}
+
+.div_foo_1 {
+  padding: 64px 16px;
+  text-align: center;
+  background-color: rgb(90, 90, 90);
+}
+.div_foo_1 p {
+  font-size: 24px;
+  color: white;
+}
+.fa {
+  font-size: 200px;
+  color: #f44336;
+  margin-top: 90px;
+}
+.div_foo_2 {
+  text-align: center;
+}
+
+.inst {
+  padding: 64px 0;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(90, 90, 90);
+  padding: 64px 0;
+  cursor: pointer;
+}
+.inst i:hover {
+  color: rgb(169, 169, 169);
+}
+.p_foo {
+  margin-bottom: 60px;
+  color: rgb(114, 114, 114);
+}
+.p_foo a {
+  color: rgb(128, 128, 128);
+}
+footer {
+  font-family: "Montserrat", sans-serif;
+}
